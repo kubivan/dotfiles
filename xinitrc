@@ -1,7 +1,7 @@
 xsetroot -cursor_name left_ptr
 [ -f ~/.wallpaper ] && feh --bg-tile ~/.wallpaper || xsetroot -gray
 [ -f ~/.Xresources ] && xrdb -merge ~/.Xresources
-setxkbmap -layout us,ru -option grp:caps_toggle
+setxkbmap -layout us,ru -option grp:caps_toggle -model pc86
 
 if [ $(which kbdd) ]
 then
