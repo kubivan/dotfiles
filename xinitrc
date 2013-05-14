@@ -20,4 +20,6 @@ else
   eval $(gpg-agent --write-env-file ${HOME}/.gnupg/gpg-agent.env --enable-ssh-support --daemon )
 fi
 
+xcompmgr&
+
 exec xmonad
